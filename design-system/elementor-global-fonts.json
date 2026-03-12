@@ -1,0 +1,58 @@
+{
+  "_description": "Polices globales à configurer dans Elementor > Réglages du site > Polices globales",
+  "typography": [
+    {
+      "id": "hh_heading_primary",
+      "title": "Heading Primary (H1/H2)",
+      "font_family": "Inter",
+      "font_weight": "900",
+      "font_style": "normal",
+      "text_transform": "none",
+      "letter_spacing": { "size": -0.03, "unit": "em" },
+      "line_height": { "size": 1.1, "unit": "em" }
+    },
+    {
+      "id": "hh_heading_secondary",
+      "title": "Heading Secondary (H3/H4)",
+      "font_family": "Inter",
+      "font_weight": "700",
+      "font_style": "normal",
+      "text_transform": "none",
+      "letter_spacing": { "size": -0.015, "unit": "em" },
+      "line_height": { "size": 1.3, "unit": "em" }
+    },
+    {
+      "id": "hh_body",
+      "title": "Body Text",
+      "font_family": "Inter",
+      "font_weight": "500",
+      "font_style": "normal",
+      "text_transform": "none",
+      "font_size": { "size": 16, "unit": "px" },
+      "letter_spacing": { "size": 0, "unit": "em" },
+      "line_height": { "size": 1.75, "unit": "em" }
+    },
+    {
+      "id": "hh_label",
+      "title": "Label / Badge",
+      "font_family": "Inter",
+      "font_weight": "700",
+      "font_style": "normal",
+      "text_transform": "uppercase",
+      "font_size": { "size": 12, "unit": "px" },
+      "letter_spacing": { "size": 0.1, "unit": "em" },
+      "line_height": { "size": 1.4, "unit": "em" }
+    },
+    {
+      "id": "hh_nav",
+      "title": "Navigation",
+      "font_family": "Inter",
+      "font_weight": "500",
+      "font_style": "normal",
+      "text_transform": "none",
+      "font_size": { "size": 15, "unit": "px" },
+      "letter_spacing": { "size": 0, "unit": "em" },
+      "line_height": { "size": 1.4, "unit": "em" }
+    }
+  ]
+}
