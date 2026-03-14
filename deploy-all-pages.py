@@ -52,7 +52,14 @@ I = {
 
 # ── SHARED HTML SECTIONS (from index.html) ──
 
-HEADER = '''<!-- HEADER -->
+HEADER = '''<!-- ANNOUNCEMENT BAR -->
+<div class="announcement-bar">
+    <span class="ann-badge">Nouveau</span>
+    <span class="ann-text">L'intelligence artificielle arrive dans votre ERP</span>
+    <a href="/prometheus/erp-ia/" class="ann-cta">Découvrir l'ERP IA →</a>
+</div>
+
+<!-- HEADER -->
 <header class="site-header">
     <div class="container header-inner">
         <a href="/prometheus/" class="logo"><img loading="eager" src="https://www.helloharel.com/wp-content/uploads/2019/05/hello-harel-logo-white.svg" alt="Hello Harel - ERP Agroalimentaire"></a>

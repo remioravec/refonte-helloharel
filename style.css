@@ -68,13 +68,13 @@ body {
   margin-top: 0 !important;
 }
 body.admin-bar #hh-page .site-header {
-  top: 32px !important;
+  top: 72px !important;
 }
 body.admin-bar #hh-page .hero-section {
-  padding-top: 204px !important;
+  padding-top: 244px !important;
 }
 body.admin-bar #hh-page .mobile-menu {
-  top: 104px !important;
+  top: 144px !important;
 }
 
 /* ====== PAGE WRAPPER RESET ====== */
@@ -135,7 +135,7 @@ body.admin-bar #hh-page .mobile-menu {
 html body #hh-page .site-header,
 #hh-page header.site-header,
 #hh-page .site-header {
-  position: fixed !important; top: 0 !important; left: 0 !important; right: 0 !important;
+  position: fixed !important; top: 40px !important; left: 0 !important; right: 0 !important;
   z-index: 99999 !important;
   background: #1e3a8a !important;
   background-color: #1e3a8a !important;
@@ -276,7 +276,7 @@ html body #hh-page .site-header,
 
 /* Mobile menu */
 #hh-page .mobile-menu {
-  display: none !important; position: fixed !important; top: 72px !important; left: 0 !important; right: 0 !important; bottom: 0 !important;
+  display: none !important; position: fixed !important; top: 112px !important; left: 0 !important; right: 0 !important; bottom: 0 !important;
   background: var(--hh-blue-900) !important; z-index: 9998 !important;
   overflow-y: auto !important; transform: translateX(100%) !important;
   transition: transform 0.3s ease !important;
@@ -318,7 +318,7 @@ html body #hh-page .site-header,
 
 /* ====== HERO ====== */
 #hh-page .hero-section {
-  padding: 100px 0 120px !important; padding-top: 172px !important; margin-top: 0 !important;
+  padding: 100px 0 120px !important; padding-top: 212px !important; margin-top: 0 !important;
   display: block !important; position: relative !important; width: 100% !important;
 }
 #hh-page .hero-grid {
@@ -854,7 +854,7 @@ html body #hh-page .site-header,
 
 @media (max-width: 640px) {
   #hh-page .container { padding: 0 1rem !important; }
-  #hh-page .hero-section { padding-top: 132px !important; padding-bottom: 60px !important; }
+  #hh-page .hero-section { padding-top: 172px !important; padding-bottom: 60px !important; }
   #hh-page .hero-title { font-size: 2rem !important; }
   #hh-page .about-grid { grid-template-columns: 1fr !important; }
   #hh-page .bento-grid { grid-template-columns: 1fr !important; }
@@ -870,4 +870,32 @@ html body #hh-page .site-header,
   #hh-page .discover-badges { padding: 0.75rem 1.25rem !important; gap: 1rem !important; }
   #hh-page .team-card { width: 100% !important; }
   .faq-drawer-content { padding: 2.5rem 1.5rem 1.5rem !important; }
+}
+
+/* ====== ANNOUNCEMENT BANNER ====== */
+#hh-page .announcement-bar {
+  position: fixed !important; top: 0 !important; left: 0 !important; right: 0 !important;
+  z-index: 100000 !important;
+  background: linear-gradient(90deg, #7c3aed, #1d4ed8, #0891b2) !important;
+  padding: 0.5rem 1rem !important; text-align: center !important;
+  display: flex !important; align-items: center !important; justify-content: center !important; gap: 0.75rem !important;
+  min-height: 40px !important;
+}
+#hh-page .announcement-bar .ann-badge {
+  background: rgba(255,255,255,0.2) !important; color: #fff !important;
+  font-size: 0.625rem !important; font-weight: 800 !important; text-transform: uppercase !important;
+  letter-spacing: 0.08em !important; padding: 0.1875rem 0.625rem !important;
+  border-radius: 9999px !important; white-space: nowrap !important;
+}
+#hh-page .announcement-bar .ann-text {
+  color: rgba(255,255,255,0.9) !important; font-size: 0.8125rem !important; font-weight: 500 !important;
+}
+#hh-page .announcement-bar .ann-cta {
+  background: #fff !important; color: #1d4ed8 !important;
+  font-size: 0.75rem !important; font-weight: 700 !important;
+  padding: 0.3125rem 0.875rem !important; border-radius: 9999px !important;
+  white-space: nowrap !important; transition: all 0.3s ease !important;
+}
+#hh-page .announcement-bar .ann-cta:hover {
+  background: rgba(255,255,255,0.9) !important; transform: scale(1.05) !important;
 }
