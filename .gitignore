@@ -1,1 +1,8 @@
 wp-sites.json
+__pycache__/
+*.pyc
+*.pyo
+backup-avant-modif/
+blog-posts.json
+pages-content-audit.json
+.DS_Store
