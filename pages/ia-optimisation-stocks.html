@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IA Optimisation des Stocks — Zéro rupture, zéro surstock | Hello Harel</title>
+    <meta name="description" content="Stock de sécurité dynamique, réapprovisionnement automatique, prévention des ruptures, réduction du surstockage. L'IA optimise vos niveaux de stock en continu.">
+    <link rel="canonical" href="https://www.helloharel.com/prometheus/intelligence-artificielle/optimisation-stocks/">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com">
+    <meta property="og:title" content="IA Optimisation des Stocks — Zéro rupture, zéro surstock | Hello Harel">
+    <meta property="og:description" content="Stock de sécurité dynamique, réapprovisionnement automatique, prévention des ruptures, réduction du surstockage. L'IA optimise vos niveaux de stock en continu.">
+    <meta property="og:url" content="https://www.helloharel.com/prometheus/intelligence-artificielle/optimisation-stocks/">
+    <meta property="og:type" content="website">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+<!-- ANNOUNCEMENT BAR -->
+<div class="announcement-bar">
+    <span class="ann-badge">Nouveau</span>
+    <span class="ann-text">L'intelligence artificielle arrive dans votre ERP</span>
+    <a href="/prometheus/erp-ia/" class="ann-cta">Découvrir l'ERP IA →</a>
+</div>
+
+<!-- HEADER -->
+<header class="site-header">
+    <div class="container header-inner">
+        <a href="/prometheus/" class="logo"><img loading="eager" src="https://www.helloharel.com/wp-content/uploads/2019/05/hello-harel-logo-white.svg" alt="Hello Harel - ERP Agroalimentaire"></a>
+        <nav class="desktop-nav">
+            <a href="/prometheus/">Accueil</a>
+            <div class="nav-dropdown">
+                <button class="nav-dropdown-trigger">Fonctionnalités <svg class="chevron-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg></button>
+                <div class="dropdown-panel" style="width:380px;max-width:95vw">
+                    <div class="dropdown-card">
+                        <a href="/prometheus/fonctionnalites/crm/" class="dropdown-link"><div class="dropdown-link-icon blue"><svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0z"/></svg></div><span class="dropdown-link-text">Gestion de la relation client</span></a>
+                        <a href="/prometheus/fonctionnalites/facturation/" class="dropdown-link"><div class="dropdown-link-icon indigo"><svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/></svg></div><span class="dropdown-link-text">Gestion de la facturation</span></a>
+                        <a href="/prometheus/fonctionnalites/vente/" class="dropdown-link"><div class="dropdown-link-icon emerald"><svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><span class="dropdown-link-text">Gestion commerciale</span></a>
+                        <a href="/prometheus/fonctionnalites/gestion-de-stock/" class="dropdown-link"><div class="dropdown-link-icon amber"><svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4"/></svg></div><span class="dropdown-link-text">Gestion des stocks</span></a>
+                        <a href="/prometheus/fonctionnalites/fabrication/" class="dropdown-link"><div class="dropdown-link-icon red"><svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"/></svg></div><span class="dropdown-link-text">Gestion de la fabrication</span></a>
+                        <a href="/prometheus/fonctionnalites/achat/" class="dropdown-link"><div class="dropdown-link-icon teal"><svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"/></svg></div><span class="dropdown-link-text">Gestion des achats</span></a>
+                        <a href="/prometheus/fonctionnalites/logistique/" class="dropdown-link"><div class="dropdown-link-icon cyan"><svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7h12m0 0l-4-4m4 4l-4 4m0 6H4m0 0l4 4m-4-4l4-4"/></svg></div><span class="dropdown-link-text">Gestion de la logistique</span></a>
+                        <a href="/prometheus/fonctionnalites/import-export/" class="dropdown-link"><div class="dropdown-link-icon orange"><svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div><span class="dropdown-link-text">Gestion des imports exports</span></a>
+<div style="border-top:1px solid #e2e8f0;margin-top:0.5rem;padding-top:0.5rem">
+<a href="/prometheus/negoce/" class="dropdown-link"><div class="dropdown-link-icon teal"><svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4"/></svg></div><span class="dropdown-link-text">ERP Négoce</span></a>
+</div>
+                    </div>
+                </div>
+            </div>
+            <div class="nav-dropdown">
+                <button class="nav-dropdown-trigger">Industries <svg class="chevron-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg></button>
+                <div class="dropdown-panel mega-industries-card">
+                    <div class="dropdown-card" style="padding:0;overflow:hidden">
+                        <div class="mega-industries-inner">
+                            <h5><svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 6l3 1m0 0l-3 9a5.002 5.002 0 006.001 0M6 7l3 9M6 7l6-2m6 2l3-1m-3 1l-3 9a5.002 5.002 0 006.001 0M18 7l3 9m-3-9l-6-2m0-2v2m0 16V5m0 16H9m3 0h3"/></svg> Agroalimentaire</h5>
+                            <a href="/prometheus/agroalimentaire/" class="industry-link"><div class="industry-link-icon"><svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/></svg></div><span>ERP Agroalimentaire</span></a>
+                            <a href="/prometheus/agroalimentaire/traiteur/" class="industry-link"><div class="industry-link-icon"><svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 18.657A8 8 0 016.343 7.343S7 9 9 10c0-2 .5-5 2.986-7C14 5 16.09 5.777 17.656 7.343A7.975 7.975 0 0120 13a7.975 7.975 0 01-2.343 5.657z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.879 16.121A3 3 0 1012.015 11L11 14H9c0 .768.293 1.536.879 2.121z"/></svg></div><span>ERP Traiteur</span></a>
+                            <a href="/prometheus/agroalimentaire/maraicher/" class="industry-link"><div class="industry-link-icon"><svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 2c-1 3-4 5-4 9a4 4 0 008 0c0-4-3-6-4-9zM8 15l-2 6h12l-2-6"/></svg></div><span>ERP Fruits et légumes</span></a>
+                            <a href="/prometheus/agroalimentaire/boulanger/" class="industry-link"><div class="industry-link-icon"><svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 18c0 1 1.5 3 7 3s7-2 7-3c0-2-3-3-7-3s-7 1-7 3zM5 18c-1-2 0-5 2-7 1.5-1.5 3-2 5-2s3.5.5 5 2c2 2 3 5 2 7"/></svg></div><span>ERP Boulangerie Pâtisserie</span></a>
+                            <a href="/prometheus/agroalimentaire/charcutier/" class="industry-link"><div class="industry-link-icon"><svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 3l-1.5 1.5M9 9l-6 6c-1 1-1 2.5 0 3.5l2 2c1 1 2.5 1 3.5 0l6-6M18 6c1.5-1.5 1.5-4 0-5.5s-4 0-5.5 0L9 4l3 3 3 3 3.5-3.5z"/></svg></div><span>ERP Charcutier</span></a>
+                            <a href="/prometheus/agroalimentaire/industrie-laitiere/" class="industry-link"><div class="industry-link-icon"><svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 2h8l1 4H7L8 2zM7 6v2c0 1-1 2-1 3v7a2 2 0 002 2h8a2 2 0 002-2v-7c0-1-1-2-1-3V6"/></svg></div><span>ERP Laitier</span></a>
+                            <a href="/prometheus/agroalimentaire/plats-cuisines-industriels/" class="industry-link"><div class="industry-link-icon"><svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 13h18M5 13c0-4 3-7 7-7s7 3 7 7M4 13v1a1 1 0 001 1h14a1 1 0 001-1v-1"/></svg></div><span>ERP Plats cuisinés</span></a>
+<div style="border-top:1px solid #e2e8f0;margin-top:0.75rem;padding-top:0.75rem">
+<h5><svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"/></svg> Médical</h5>
+<a href="/prometheus/medical/" class="industry-link"><div class="industry-link-icon"><svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/></svg></div><span>ERP Dispositifs Médicaux</span></a>
+<a href="/prometheus/medical/laboratoires/" class="industry-link"><div class="industry-link-icon"><svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z"/></svg></div><span>ERP Laboratoires</span></a>
+<a href="/prometheus/medical/materiel-dentaire/" class="industry-link"><div class="industry-link-icon"><svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"/></svg></div><span>ERP Matériel Dentaire</span></a>
+<a href="/prometheus/medical/maintien-a-domicile/" class="industry-link"><div class="industry-link-icon"><svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"/></svg></div><span>ERP Maintien à Domicile</span></a>
+<a href="/prometheus/medical/hygiene-professionnelle/" class="industry-link"><div class="industry-link-icon"><svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/></svg></div><span>ERP Hygiène Professionnelle</span></a>
+</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a href="/prometheus/tarifs/">Tarifs</a>
+            <a href="/prometheus/ecosysteme/">Écosystème</a>
+        </nav>
+        <div class="header-actions">
+            <a href="/prometheus/contact/" class="btn-contact-header">Contactez-nous</a>
+            <a href="/prometheus/contact/" class="btn-demo-header">Demandez une démo</a>
+        </div>
+        <button class="hamburger-btn" id="hamburgerBtn" aria-label="Menu"><svg id="iconMenu" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/></svg><svg id="iconClose" style="display:none" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/></svg></button>
+    </div>
+    <div class="mobile-menu" id="mobileMenu">
+        <div class="mobile-menu-inner">
+            <a href="/prometheus/">Accueil</a>
+            <div><button class="mobile-accordion-btn" onclick="this.classList.toggle('open');this.nextElementSibling.classList.toggle('open')">Fonctionnalités <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg></button><div class="mobile-submenu"><a href="/prometheus/fonctionnalites/crm/">Gestion relation client</a><a href="/prometheus/fonctionnalites/facturation/">Gestion facturation</a><a href="/prometheus/fonctionnalites/vente/">Gestion commerciale</a><a href="/prometheus/fonctionnalites/gestion-de-stock/">Gestion des stocks</a><a href="/prometheus/fonctionnalites/fabrication/">Gestion fabrication</a><a href="/prometheus/fonctionnalites/achat/">Gestion des achats</a><a href="/prometheus/fonctionnalites/logistique/">Gestion logistique</a><a href="/prometheus/fonctionnalites/import-export/">Gestion imports exports</a><a href="/prometheus/negoce/">ERP Négoce</a></div></div>
+            <div><button class="mobile-accordion-btn" onclick="this.classList.toggle('open');this.nextElementSibling.classList.toggle('open')">Industries <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg></button><div class="mobile-submenu"><a href="/prometheus/agroalimentaire/">ERP Agroalimentaire</a><a href="/prometheus/agroalimentaire/traiteur/">ERP Traiteur</a><a href="/prometheus/agroalimentaire/maraicher/">ERP Fruits et légumes</a><a href="/prometheus/agroalimentaire/boulanger/">ERP Boulangerie</a><a href="/prometheus/agroalimentaire/charcutier/">ERP Charcutier</a><a href="/prometheus/agroalimentaire/industrie-laitiere/">ERP Laitier</a><a href="/prometheus/agroalimentaire/plats-cuisines-industriels/">ERP Plats cuisinés</a><a href="/prometheus/medical/">ERP Médical</a><a href="/prometheus/medical/dispositifs-medicaux/">ERP Dispositifs Médicaux</a><a href="/prometheus/medical/laboratoires/">ERP Laboratoires</a><a href="/prometheus/medical/materiel-dentaire/">ERP Matériel Dentaire</a><a href="/prometheus/medical/maintien-a-domicile/">ERP Maintien à Domicile</a><a href="/prometheus/medical/hygiene-professionnelle/">ERP Hygiène Professionnelle</a></div></div>
+            <a href="/prometheus/tarifs/">Tarifs</a>
+            <a href="/prometheus/ecosysteme/">Écosystème</a>
+            <div class="mobile-ctas"><a href="/prometheus/contact/" class="mobile-cta-primary">Demandez une démo</a><a href="/prometheus/contact/" class="mobile-cta-secondary">Contactez-nous</a></div>
+        </div>
+    </div>
+</header>
+
+<section class="hero-section" style="background:linear-gradient(rgba(30,58,138,0.82),rgba(30,58,138,0.82)),url('https://www.helloharel.com/prometheus/wp-content/uploads/2025/07/Logiciel-de-gestion-de-la-relation-client-crm.svg') center/cover no-repeat;border-bottom:none;">
+    <div class="container">
+        <div class="hero-content-centered">
+            <div class="hero-badge"><span class="dot"></span>IA &amp; Stocks</div>
+            <h1 class="hero-title" style="color:#fff">IA + Optimisation des Stocks — <span class="accent" style="color:#16DB7F">Zéro rupture, zéro surstock</span></h1>
+            <p class="hero-description" style="color:rgba(255,255,255,0.85)">Stock de sécurité dynamique, réapprovisionnement automatique, prévention des ruptures, réduction du surstockage. L'IA optimise vos niveaux de stock en continu.</p>
+            <a href="/prometheus/contact/" class="hero-cta" style="background:#22C55E !important;border-color:#22C55E !important;color:#fff;box-shadow:0 10px 25px rgba(0,0,0,0.3)">Demander une démo</a>
+            <p class="hero-cta-sub" style="color:rgba(255,255,255,0.7)">Sans engagement. Déploiement rapide.</p>
+        </div>
+    </div>
+</section>
+
+<!-- LOGO CAROUSEL -->
+<section class="logos-section">
+    <div class="container">
+        <p class="section-label">Ils nous font confiance</p>
+        <div class="logo-carousel-container">
+            <div class="logo-carousel">
+                <img loading="lazy" src="https://www.helloharel.com/wp-content/uploads/2026/01/Logo_Pro-inter_Magasins_Orientaux.png" alt="Pro-Inter">
+                <img loading="lazy" src="https://www.helloharel.com/wp-content/uploads/2026/01/1.png" alt="Leclerc">
+                <img loading="lazy" src="https://www.helloharel.com/wp-content/uploads/2026/01/Jacob-150x150.jpeg" alt="Jacob">
+                <img loading="lazy" src="https://www.helloharel.com/wp-content/uploads/2026/01/Capture-decran-2026-01-13-a-15.14.24-300x64.png" alt="Corseprim">
+                <img loading="lazy" src="https://www.helloharel.com/wp-content/uploads/2026/01/Capture-decran-2026-01-13-a-15.12.46.png" alt="Les Primeurs">
+                <img loading="lazy" src="https://www.helloharel.com/wp-content/uploads/2026/01/Capture-decran-2026-01-13-a-15.10.42-300x226.png" alt="HPS">
+                <img loading="lazy" src="https://www.helloharel.com/wp-content/uploads/2026/01/Capture-decran-2026-01-13-a-15.08.48-300x86.png" alt="Kore">
+                <img loading="lazy" src="https://www.helloharel.com/wp-content/uploads/2026/01/Capture-decran-2026-01-13-a-15.07.48-300x165.png" alt="Poujauran">
+                <img loading="lazy" src="https://www.helloharel.com/wp-content/uploads/2026/01/Capture-decran-2026-01-13-a-15.06.38-300x131.png" alt="Eatmotion">
+                <img loading="lazy" src="https://www.helloharel.com/wp-content/uploads/2026/01/Capture-decran-2026-01-13-a-15.03.06-300x170.png" alt="Ciao Gusto">
+                <img loading="lazy" src="https://www.helloharel.com/wp-content/uploads/2026/01/Capture-decran-2026-01-13-a-15.04.34-300x103.png" alt="Chef Cheffe">
+                <img loading="lazy" src="https://www.helloharel.com/wp-content/uploads/2026/01/Capture-decran-2026-01-13-a-15.01.39-300x163.png" alt="Savary">
+                <img loading="lazy" src="https://www.helloharel.com/wp-content/uploads/2026/01/Logo_Pro-inter_Magasins_Orientaux.png" alt="Pro-Inter">
+                <img loading="lazy" src="https://www.helloharel.com/wp-content/uploads/2026/01/1.png" alt="Leclerc">
+                <img loading="lazy" src="https://www.helloharel.com/wp-content/uploads/2026/01/Jacob-150x150.jpeg" alt="Jacob">
+                <img loading="lazy" src="https://www.helloharel.com/wp-content/uploads/2026/01/Capture-decran-2026-01-13-a-15.14.24-300x64.png" alt="Corseprim">
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="features-section" id="fonctionnalites">
+    <div class="container">
+        <div class="section-header">
+            <p class="overline">Optimisation Stocks IA</p>
+            <h2>Vos stocks au niveau parfait, en permanence</h2>
+            <p>L'IA qui équilibre disponibilité et trésorerie</p>
+        </div>
+        <div class="bento-grid">
+            <div class="bento-card large">
+                <div class="bg-pattern"><svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4"/></svg></div>
+                <div style="position:relative;z-index:1"><div class="bento-icon blue"><svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/></svg></div>
+                <h3>Stock de sécurité dynamique</h3>
+                <p>Fini les seuils de réapprovisionnement fixes. L'IA calcule le stock de sécurité optimal pour chaque produit en fonction de la demande réelle, des délais fournisseurs et de la saisonnalité.</p>
+                <ul class="check-list"><li><svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>Seuils ajustés automatiquement</li><li><svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>Prise en compte des délais fournisseurs</li><li><svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>Adaptation à la saisonnalité</li></ul>
+                <a href="/prometheus/intelligence-artificielle/" class="card-link">Retour aux modules IA <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg></a></div>
+            </div>
+            <div class="bento-card"><div class="bento-icon emerald"><svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"/></svg></div><h3>Réapprovisionnement automatique</h3><p>L'IA génère automatiquement les commandes d'achat au bon moment, en tenant compte des quantités optimales, des franco de port et des remises volume fournisseur.</p><a href="/prometheus/fonctionnalites/achat/" class="card-link">Voir le module Achats <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg></a></div>
+            <div class="bento-card"><div class="bento-icon amber"><svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"/></svg></div><h3>Prévention des ruptures</h3><p>L'IA anticipe les risques de rupture 7 à 14 jours à l'avance et vous alerte pour que vous puissiez agir. Elle propose des alternatives en cas de rupture fournisseur.</p><a href="/prometheus/intelligence-artificielle/analyse-predictive/" class="card-link">Voir l'analyse prédictive <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg></a></div>
+            <div class="bento-card"><div class="bento-icon indigo"><svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 17h8m0 0V9m0 8l-8-8-4 4-6-6"/></svg></div><h3>Réduction du surstockage</h3><p>Identifiez les produits dormants, les stocks excédentaires et les rotations lentes. L'IA recommande des actions : promotions, déstockage, arrêt de référence.</p><a href="/prometheus/fonctionnalites/gestion-de-stock/" class="card-link">Voir le module Stocks <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg></a></div>
+
+            <div class="bento-card wide"><div style="display:flex;gap:24px;align-items:center"><div style="flex:1"><div class="bento-icon purple"><svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"/></svg></div><h3>Analyse ABC automatique</h3><p>L'IA classe automatiquement vos produits en catégories A, B et C selon leur contribution au chiffre d'affaires et leur rotation. Elle ajuste cette classification en continu pour refléter l'évolution de votre activité.</p></div></div></div>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+<!-- VOIR AUSSI -->
+<section class="features-section" style="padding-top:0">
+    <div class="container">
+        <div class="section-header">
+            <p class="overline">Voir aussi</p>
+            <h2>Découvrez les autres modules IA</h2>
+        </div>
+        <div class="bento-grid" style="grid-template-columns:repeat(3,1fr)">
+            <a href="/prometheus/intelligence-artificielle/analyse-predictive/" class="bento-card" style="text-decoration:none;cursor:pointer"><div class="bento-icon blue"><svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"/></svg></div><h3>Analyse prédictive</h3><p>Anticipez la demande et optimisez vos achats.</p></a>
+            <a href="/prometheus/intelligence-artificielle/automatisation-comptable/" class="bento-card" style="text-decoration:none;cursor:pointer"><div class="bento-icon emerald"><svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/></svg></div><h3>Automatisation comptable</h3><p>Réduisez 80% du travail comptable.</p></a>
+            <a href="/prometheus/intelligence-artificielle/assistant-commercial/" class="bento-card" style="text-decoration:none;cursor:pointer"><div class="bento-icon amber"><svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0z"/></svg></div><h3>Assistant commercial IA</h3><p>Boostez vos ventes avec l'IA.</p></a>
+        </div>
+    </div>
+</section>
+
+<section class="faq-section">
+    <div class="container">
+        <div class="section-header">
+            <p class="overline">FAQ Optimisation Stocks</p>
+            <h2>Questions sur l'optimisation des stocks IA</h2>
+            <p>Comprendre comment l'IA gère vos stocks.</p>
+        </div>
+        <div class="faq-cards-grid">
+            <div class="faq-card" onclick="openFaqDrawer(0)">
+                <div class="faq-card-inner">
+                    <div class="faq-card-emoji"><svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4"/></svg></div>
+                    <span class="faq-card-question">Comment l'IA calcule-t-elle le stock de sécurité ?</span>
+                    <span class="faq-card-meta">Algorithme, variables, dynamique</span>
+                </div>
+                <div class="faq-card-arrow"><svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg></div>
+            </div>
+            <div class="faq-card" onclick="openFaqDrawer(1)">
+                <div class="faq-card-inner">
+                    <div class="faq-card-emoji"><svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"/></svg></div>
+                    <span class="faq-card-question">Le réapprovisionnement automatique passe-t-il les commandes tout seul ?</span>
+                    <span class="faq-card-meta">Validation, contrôle, automatisation</span>
+                </div>
+                <div class="faq-card-arrow"><svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg></div>
+            </div>
+            <div class="faq-card" onclick="openFaqDrawer(2)">
+                <div class="faq-card-inner">
+                    <div class="faq-card-emoji"><svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"/></svg></div>
+                    <span class="faq-card-question">L'IA gère-t-elle les produits à DLC courte ?</span>
+                    <span class="faq-card-meta">DLC, FIFO, pertes, fraîcheur</span>
+                </div>
+                <div class="faq-card-arrow"><svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg></div>
+            </div>
+            <div class="faq-card" onclick="openFaqDrawer(3)">
+                <div class="faq-card-inner">
+                    <div class="faq-card-emoji"><svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"/></svg></div>
+                    <span class="faq-card-question">Quel gain de trésorerie peut-on espérer ?</span>
+                    <span class="faq-card-meta">Trésorerie, BFR, ROI</span>
+                </div>
+                <div class="faq-card-arrow"><svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg></div>
+            </div>
+        </div>
+    </div>
+</section>
+<div class="faq-drawer-overlay" id="faqOverlay" onclick="closeFaqDrawer()"></div>
+<div class="faq-drawer" id="faqDrawer">
+    <button class="faq-drawer-close" onclick="closeFaqDrawer()" aria-label="Fermer"><svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/></svg></button>
+    <div class="faq-drawer-content" id="faqDrawerContent"></div>
+</div>
+<script>
+var faqData = [
+    {title: 'Comment l\'IA calcule-t-elle le stock de sécurité ?', html: '<h3>Un calcul dynamique basé sur vos données réelles</h3><p>L\'IA prend en compte plusieurs variables pour calculer le stock de sécurité optimal :</p><ul><li><strong>Demande moyenne</strong> et sa variabilité</li><li><strong>Délai de livraison</strong> moyen du fournisseur et sa variabilité</li><li><strong>Taux de service</strong> souhaité (ex : 95% de disponibilité)</li><li><strong>Saisonnalité</strong> et tendances</li></ul><p>Le stock de sécurité est recalculé chaque semaine pour s\'adapter à l\'évolution de votre activité.</p>'},
+    {title: 'Le réapprovisionnement automatique passe-t-il les commandes tout seul ?', html: '<h3>Vous gardez le contrôle</h3><p>Par défaut, l\'IA <strong>propose</strong> les commandes mais ne les passe pas sans votre validation. Vous recevez une proposition de commande que vous pouvez modifier, valider ou rejeter en un clic.</p><p>Si vous le souhaitez, vous pouvez activer le <strong>mode automatique</strong> pour les fournisseurs de confiance : l\'IA passe la commande directement quand le seuil est atteint.</p>'},
+    {title: 'L\'IA gère-t-elle les produits à DLC courte ?', html: '<h3>Spécialement conçue pour l\'agroalimentaire</h3><p>L\'IA de Hello Harel intègre nativement la gestion des <strong>DLC et DDM</strong> :</p><ul><li><strong>FIFO intelligent</strong> — Les produits à DLC proche sont prioritaires</li><li><strong>Alertes DLC</strong> — Notification avant péremption pour déstockage</li><li><strong>Commandes ajustées</strong> — Les quantités commandées tiennent compte de la durée de vie du produit</li><li><strong>Réduction des pertes</strong> — Moins de produits jetés grâce à des commandes plus fréquentes et mieux calibrées</li></ul>'},
+    {title: 'Quel gain de trésorerie peut-on espérer ?', html: '<h3>Des résultats mesurables sur votre BFR</h3><p>Nos clients constatent en moyenne :</p><ul><li><strong>-30% de valeur de stock</strong> immobilisée grâce à l\'optimisation des seuils</li><li><strong>-40% de surstockage</strong> sur les produits à faible rotation</li><li><strong>-25% de pertes</strong> liées aux DLC dépassées</li><li><strong>Libération de trésorerie</strong> significative pour investir ailleurs</li></ul><p>Le ROI est visible dès le premier mois d\'utilisation.</p>'},
+];
+function openFaqDrawer(index) {
+    var d = faqData[index];
+    document.getElementById('faqDrawerContent').innerHTML = '<h3>' + d.title + '</h3>' + d.html;
+    document.getElementById('faqOverlay').classList.add('open');
+    document.getElementById('faqDrawer').classList.add('open');
+    document.body.style.overflow = 'hidden';
+}
+function closeFaqDrawer() {
+    document.getElementById('faqOverlay').classList.remove('open');
+    document.getElementById('faqDrawer').classList.remove('open');
+    document.body.style.overflow = '';
+}
+document.addEventListener('keydown', function(e) { if (e.key === 'Escape') closeFaqDrawer(); });
+</script>
+
+<!-- CTA FINAL -->
+<section class="cta-banner">
+    <div class="container"><div class="cta-banner-inner"><h2>Prêt à transformer votre gestion ?</h2><p>Obtenez votre démo gratuite en 3 minutes. Déploiement clé en main, sans intégrateur.</p><div class="cta-buttons"><a href="/prometheus/contact/" class="cta-btn-primary" style="background:#22C55E !important;border-color:#22C55E !important;">Demander ma démo gratuite</a><a href="https://www.youtube.com/watch?v=pANFAv6-sJk" class="cta-btn-secondary" target="_blank" rel="noopener"><svg fill="none" stroke="currentColor" viewBox="0 0 24 24" style="width:18px;height:18px"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg> Voir la vidéo</a></div></div></div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+    <div class="container">
+        <div class="footer-grid">
+            <div class="footer-brand"><img loading="lazy" src="https://www.helloharel.com/wp-content/uploads/2019/05/hello-harel-logo-white.svg" alt="Hello Harel" style="height:36px;margin-bottom:15px"><div class="social-icons"><a href="https://www.linkedin.com/company/26042947/" target="_blank" rel="noopener"><i class="fab fa-linkedin-in"></i></a><a href="https://www.youtube.com/@HelloHarel" target="_blank" rel="noopener"><i class="fab fa-youtube"></i></a></div><p>Hello Harel est un ERP SAAS pour l'industrie de l'agroalimentaire.</p></div>
+            <div class="footer-col"><h4>Fonctionnalités</h4><ul><li><a href="/prometheus/fonctionnalites/crm/">Logiciel CRM</a></li><li><a href="/prometheus/fonctionnalites/facturation/">Logiciel de Facturation</a></li><li><a href="/prometheus/fonctionnalites/fabrication/">Logiciel de Fabrication</a></li><li><a href="/prometheus/fonctionnalites/gestion-de-stock/">Logiciel de Gestion de stock</a></li><li><a href="/prometheus/fonctionnalites/vente/">Logiciel de gestion des Ventes</a></li><li><a href="/prometheus/fonctionnalites/achat/">Logiciel d'Achat</a></li><li><a href="/prometheus/fonctionnalites/logistique/">Logiciel de Logistique</a></li><li><a href="/prometheus/fonctionnalites/import-export/">Logiciel Import Export</a></li><li><a href="/prometheus/negoce/">ERP Négoce</a></li></ul></div>
+            <div class="footer-col"><h4>Industries</h4><ul><li><a href="/prometheus/agroalimentaire/">ERP Agroalimentaire</a></li><li><a href="/prometheus/agroalimentaire/boulanger/">ERP Boulangerie</a></li><li><a href="/prometheus/agroalimentaire/traiteur/">ERP Traiteur</a></li><li><a href="/prometheus/agroalimentaire/maraicher/">ERP Fruits et légumes</a></li><li><a href="/prometheus/agroalimentaire/charcutier/">ERP Charcutier</a></li><li><a href="/prometheus/agroalimentaire/industrie-laitiere/">ERP Laitier</a></li><li><a href="/prometheus/agroalimentaire/plats-cuisines-industriels/">ERP Plats cuisinés</a></li><li><a href="/prometheus/medical/">ERP Médical</a></li><li><a href="/prometheus/medical/dispositifs-medicaux/">ERP Dispositifs Médicaux</a></li><li><a href="/prometheus/medical/laboratoires/">ERP Laboratoires</a></li></ul></div>
+            <div class="footer-col"><h4>Informations</h4><ul><li><a href="/prometheus/blog/">Blog</a></li><li><a href="/prometheus/qui-sommes-nous/">Qui sommes nous ?</a></li><li><a href="/prometheus/ecosysteme/">Ecosystème</a></li><li><a href="https://doc.harelsystems.io/doc/basic" target="_blank" rel="noopener">Tutoriels</a></li><li><a href="/prometheus/erp-ia/" style="color:#16DB7F !important;font-weight:700 !important">Nouveau : ERP IA</a></li><li style="margin-top:0.75rem;padding-top:0.75rem;border-top:1px solid rgba(255,255,255,0.06)"><a href="/prometheus/integrateurs/" style="color:#16DB7F !important;font-weight:700 !important">Devenir intégrateur</a></li></ul></div>
+        </div>
+        <div class="footer-bottom"><a href="/prometheus/mentions-legales/">Mentions légales</a><a href="/prometheus/politique-de-confidentialite/">Politique de confidentialité</a><a href="/prometheus/cgu/">Conditions générales d'utilisation</a></div>
+    </div>
+</footer>
+
+<div class="sticky-cta"><a href="/prometheus/contact/" style="background:#22C55E !important;border-color:#22C55E !important;">Demander une démo</a></div>
+
+<script>
+document.getElementById('hamburgerBtn').addEventListener('click',function(){var m=document.getElementById('mobileMenu');var open=m.classList.toggle('open');document.getElementById('iconMenu').style.display=open?'none':'block';document.getElementById('iconClose').style.display=open?'block':'none';document.body.classList.toggle('menu-open',open);});
+window.addEventListener('resize',function(){if(window.innerWidth>=1024){document.getElementById('mobileMenu').classList.remove('open');document.getElementById('iconMenu').style.display='block';document.getElementById('iconClose').style.display='none';document.body.classList.remove('menu-open');}});
+(function(){var h=document.querySelector('.site-header'),hr=document.querySelector('.hero-section');if(!h||!hr)return;new IntersectionObserver(function(e){h.classList.toggle('scrolled',!e[0].isIntersecting);},{threshold:0.1}).observe(hr);})();
+(function(){var r=document.querySelectorAll('.scroll-reveal');if(!r.length)return;var o=new IntersectionObserver(function(e){e.forEach(function(en){if(en.isIntersecting){var s=en.target.parentElement.querySelectorAll('.scroll-reveal');en.target.style.transitionDelay=(Array.prototype.indexOf.call(s,en.target)*100)+'ms';en.target.classList.add('revealed');o.unobserve(en.target);}});},{threshold:0.1,rootMargin:'0px 0px -50px 0px'});r.forEach(function(el){o.observe(el);});})();
+</script>
+
+</body>
+</html>

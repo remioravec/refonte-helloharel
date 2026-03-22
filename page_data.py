@@ -357,7 +357,7 @@ P_AGRO = {
 
 # ── TRAITEUR ──
 P_TRAITEUR = {
-    "id": 2839, "slug": "traiteur", "name": "ERP Traiteur",
+    "id": 2839, "slug": "traiteur", "name": "ERP Traiteur", "metier_slug": "plats-cuisines",
     "hero": {
         "badge": "ERP Traiteur",
         "title_w": "Planifiez vos événements,",
@@ -392,7 +392,7 @@ P_TRAITEUR = {
 
 # ── MARAÎCHER ──
 P_MARAICHER = {
-    "id": 2824, "slug": "maraicher", "name": "ERP Fruits et Légumes",
+    "id": 2824, "slug": "maraicher", "name": "ERP Fruits et Légumes", "metier_slug": "fruits-legumes",
     "hero": {
         "badge": "ERP Fruits & Légumes",
         "title_w": "Gérez votre production,",
@@ -427,7 +427,7 @@ P_MARAICHER = {
 
 # ── BOULANGER ──
 P_BOULANGER = {
-    "id": 3309, "slug": "boulanger", "name": "ERP Boulangerie Pâtisserie",
+    "id": 3309, "slug": "boulanger", "name": "ERP Boulangerie Pâtisserie", "metier_slug": "boulanger",
     "hero": {
         "badge": "ERP Boulangerie",
         "title_w": "Pilotez vos fournées,",
@@ -462,7 +462,7 @@ P_BOULANGER = {
 
 # ── CHARCUTIER ──
 P_CHARCUTIER = {
-    "id": 2818, "slug": "charcutier", "name": "ERP Charcutier",
+    "id": 2818, "slug": "charcutier", "name": "ERP Charcutier", "metier_slug": "charcutier",
     "hero": {
         "badge": "ERP Charcutier",
         "title_w": "Gérez vos lots, assurez",
@@ -497,7 +497,7 @@ P_CHARCUTIER = {
 
 # ── INDUSTRIE LAITIÈRE ──
 P_LAITIER = {
-    "id": 5470, "slug": "industrie-laitiere", "name": "ERP Industrie Laitière",
+    "id": 5470, "slug": "industrie-laitiere", "name": "ERP Industrie Laitière", "metier_slug": "laitier",
     "hero": {
         "badge": "ERP Laitier",
         "title_w": "Maîtrisez vos marges et",
@@ -532,7 +532,7 @@ P_LAITIER = {
 
 # ── PLATS CUISINÉS INDUSTRIELS ──
 P_PLATS = {
-    "id": 5477, "slug": "plats-cuisines-industriels", "name": "ERP Plats Cuisinés",
+    "id": 5477, "slug": "plats-cuisines-industriels", "name": "ERP Plats Cuisinés", "metier_slug": "plats-cuisines",
     "hero": {
         "badge": "ERP Plats Cuisinés",
         "title_w": "Maîtrisez vos recettes,",
@@ -567,7 +567,7 @@ P_PLATS = {
 
 # ── MEDICAL (parent page) ──
 P_MEDICAL = {
-    "id": 6022, "slug": "medical", "name": "ERP Médical",
+    "id": 6022, "slug": "medical", "name": "ERP Médical", "silo": "medical",
     "hero": {
         "badge": "ERP Médical",
         "title_w": "Simplifiez votre gestion,",
@@ -602,7 +602,7 @@ P_MEDICAL = {
 
 # ── DISPOSITIFS MÉDICAUX ──
 P_DISPOSITIFS = {
-    "id": 6023, "slug": "dispositifs-medicaux", "name": "ERP Dispositifs Médicaux",
+    "id": 6023, "slug": "dispositifs-medicaux", "name": "ERP Dispositifs Médicaux", "silo": "medical",
     "hero": {
         "badge": "ERP Dispositifs Médicaux",
         "title_w": "DMI, codes UDI et",
@@ -637,7 +637,7 @@ P_DISPOSITIFS = {
 
 # ── LABORATOIRES ──
 P_LABORATOIRES = {
-    "id": 6024, "slug": "laboratoires", "name": "ERP Laboratoires",
+    "id": 6024, "slug": "laboratoires", "name": "ERP Laboratoires", "silo": "medical",
     "hero": {
         "badge": "ERP Laboratoires",
         "title_w": "Réactifs, chaîne du froid",
@@ -672,7 +672,7 @@ P_LABORATOIRES = {
 
 # ── MATÉRIEL DENTAIRE ──
 P_DENTAIRE = {
-    "id": 6025, "slug": "materiel-dentaire", "name": "ERP Matériel Dentaire",
+    "id": 6025, "slug": "materiel-dentaire", "name": "ERP Matériel Dentaire", "silo": "medical",
     "hero": {
         "badge": "ERP Matériel Dentaire",
         "title_w": "Consommables, catalogues XXL",
@@ -707,7 +707,7 @@ P_DENTAIRE = {
 
 # ── MAINTIEN À DOMICILE ──
 P_DOMICILE = {
-    "id": 6026, "slug": "maintien-a-domicile", "name": "ERP Maintien à Domicile",
+    "id": 6026, "slug": "maintien-a-domicile", "name": "ERP Maintien à Domicile", "silo": "medical",
     "hero": {
         "badge": "ERP Maintien à Domicile",
         "title_w": "Location, LPPR",
@@ -742,7 +742,7 @@ P_DOMICILE = {
 
 # ── HYGIÈNE PROFESSIONNELLE ──
 P_HYGIENE = {
-    "id": 6027, "slug": "hygiene-professionnelle", "name": "ERP Hygiène Professionnelle",
+    "id": 6027, "slug": "hygiene-professionnelle", "name": "ERP Hygiène Professionnelle", "silo": "medical",
     "hero": {
         "badge": "ERP Hygiène Professionnelle",
         "title_w": "Gros volumes, biocides",
@@ -775,6 +775,226 @@ P_HYGIENE = {
     }
 }
 
+# ── NÉGOCE (parent page) ──
+P_NEGOCE = {
+    "id": 6248, "slug": "negoce", "name": "ERP Négoce",
+    "hero": {
+        "badge": "ERP Négoce",
+        "title_w": "Maîtrisez vos marges,",
+        "title_a": "pilotez votre négoce",
+        "desc": "Harel Négoce est l'ERP conçu pour les grossistes, distributeurs B2B et négociants. Gérez vos achats, vos ventes multicanal, votre logistique et vos tarifs complexes depuis une plateforme unique.",
+        "bg": "https://www.helloharel.com/prometheus/wp-content/uploads/2023/08/bg-line-v7.png"
+    },
+    "bento": {
+        "overline": "Modules ERP Négoce",
+        "heading": "Toutes les fonctionnalités pour le négoce",
+        "sub": "Un ERP complet qui couvre l'intégralité de votre chaîne de distribution B2B",
+        "cards": [
+            {"icon": "warehouse", "color": "blue", "bg_icon": "box", "title": "Stock multi-entrepôts", "desc": "Gérez vos stocks en temps réel sur plusieurs dépôts. Transferts inter-sites, réapprovisionnement automatique et inventaire permanent par scan.", "checks": ["Vision consolidée multi-dépôts", "Seuils de réassort automatiques", "Inventaire tournant par PDA"], "link": "/prometheus/negoce/materiaux-construction/", "link_text": "Découvrir le négoce matériaux"},
+            {"icon": "cart", "color": "emerald", "title": "Gestion commerciale B2B", "desc": "Devis, commandes, bons de livraison et facturation automatisés. Gérez vos conditions commerciales par client, groupe ou contrat-cadre.", "link": "/prometheus/negoce/boissons/", "link_text": "Découvrir le négoce boissons"},
+            {"icon": "tag", "color": "amber", "title": "Tarification complexe", "desc": "Grilles tarifaires multi-niveaux, remises en cascade, prix par quantité, promotions temporaires et tarifs contractuels. Chaque client voit son prix juste.", "link": "/prometheus/negoce/alimentaire/", "link_text": "Découvrir le négoce alimentaire"},
+            {"icon": "truck", "color": "indigo", "title": "Logistique & tournées", "desc": "Planifiez vos tournées de livraison, optimisez le chargement des camions et suivez les expéditions en temps réel avec preuve de livraison.", "link": "/prometheus/negoce/international/", "link_text": "Découvrir le négoce international"},
+            {"icon": "clipboard", "color": "purple", "title": "Achats & approvisionnement", "desc": "Centralisez vos achats fournisseurs, comparez les offres, automatisez les commandes récurrentes et suivez les réceptions lot par lot.", "link": "/prometheus/negoce/industriel/", "link_text": "Découvrir le négoce industriel"}
+        ]
+    },
+    "faq": {
+        "overline": "FAQ Négoce",
+        "heading": "Questions sur l'ERP négoce",
+        "sub": "Distribution B2B, marges, logistique et tarification.",
+        "items": [
+            {"icon": "search", "q": "Qu'est-ce qu'un ERP négoce et à qui s'adresse-t-il ?", "meta": "Grossiste, distributeur, commerce de gros", "html": "<h3>L'ERP pensé pour le négoce</h3><p>Un <strong>ERP négoce</strong> est un logiciel de gestion intégré conçu spécifiquement pour les activités de <strong>commerce de gros et distribution B2B</strong>. Il s'adresse aux :</p><ul><li><strong>Grossistes</strong> — négoce matériaux, boissons, alimentaire, fournitures industrielles</li><li><strong>Distributeurs B2B</strong> — multi-marques, multi-fournisseurs</li><li><strong>Importateurs-exportateurs</strong> — commerce international, multi-devises</li></ul><p>Contrairement à un ERP généraliste, l'ERP négoce intègre nativement la gestion des <strong>tarifs complexes</strong>, des <strong>conditionnements multiples</strong> et de la <strong>logistique de distribution</strong>.</p>"},
+            {"icon": "chart", "q": "En quoi un ERP négoce diffère-t-il d'un ERP généraliste ?", "meta": "Spécificités, tarification, logistique", "html": "<h3>Des fonctions métier que les ERP généralistes n'ont pas</h3><p>Un ERP généraliste gère la comptabilité et la facturation de base. Un <strong>ERP négoce</strong> ajoute des fonctionnalités critiques :</p><ul><li><strong>Tarification multi-niveaux</strong> — prix par client, par volume, par contrat, remises en cascade</li><li><strong>Multi-conditionnement</strong> — vente à l'unité, au colis, à la palette avec conversion automatique</li><li><strong>Logistique intégrée</strong> — tournées de livraison, chargement camion, preuve de livraison</li><li><strong>Marge en temps réel</strong> — chaque ligne de commande affiche la marge réelle sur coût d'achat</li></ul>"},
+            {"icon": "clock", "q": "Combien de temps pour déployer un ERP négoce ?", "meta": "Délai, migration, formation", "html": "<h3>Opérationnel en 2 à 4 semaines</h3><p>Notre processus de déploiement est rodé pour les entreprises de négoce :</p><ul><li><strong>Semaine 1</strong> — Audit de vos flux (achats, ventes, stocks, logistique)</li><li><strong>Semaine 2</strong> — Import de vos données : catalogue produits, clients, tarifs, stocks</li><li><strong>Semaine 3</strong> — Paramétrage des workflows et formation des équipes</li><li><strong>Semaine 4</strong> — Go-live avec accompagnement dédié</li></ul><p>La migration de vos données historiques (clients, tarifs, stocks) est incluse dans l'accompagnement.</p>"},
+            {"icon": "link", "q": "Quelles intégrations sont disponibles ?", "meta": "Comptabilité, e-commerce, EDI, transporteurs", "html": "<h3>Connecté à tout votre écosystème</h3><p>L'ERP négoce Hello Harel s'intègre nativement avec :</p><ul><li><strong>Comptabilité</strong> — Export écritures vers Sage, Cegid, ACD, EBP</li><li><strong>E-commerce B2B</strong> — Synchronisation catalogue, stocks et commandes</li><li><strong>EDI</strong> — Échanges normalisés avec la grande distribution et les centrales d'achat</li><li><strong>Transporteurs</strong> — Connexion aux API des transporteurs pour suivi colis</li></ul><p>Notre API REST ouverte permet de connecter tout outil tiers en quelques heures.</p>"}
+        ]
+    }
+}
+
+# ── NÉGOCE MATÉRIAUX DE CONSTRUCTION ──
+P_NEGOCE_MATERIAUX = {
+    "id": 6249, "slug": "materiaux-construction", "name": "ERP Négoce Matériaux",
+    "hero": {
+        "badge": "ERP Négoce Matériaux",
+        "title_w": "Des milliers de références,",
+        "title_a": "une logistique maîtrisée",
+        "desc": "Négoce de matériaux de construction, quincaillerie, sanitaire, chauffage, plomberie ou électrique : gérez votre catalogue massif, vos entrepôts régionaux et vos livraisons chantier depuis un ERP unique.",
+        "bg": "https://www.helloharel.com/prometheus/wp-content/uploads/2023/08/bg-line-v7.png"
+    },
+    "bento": {
+        "overline": "ERP Négoce Matériaux",
+        "heading": "L'ERP conçu pour le négoce de matériaux",
+        "sub": "BTP, quincaillerie, sanitaire, chauffage, plomberie, électrique",
+        "cards": [
+            {"icon": "database", "color": "blue", "bg_icon": "box", "title": "Catalogue BTP massif", "desc": "Gérez des dizaines de milliers de références avec attributs techniques : dimensions, poids, conditionnement, classe de résistance. Recherche multicritère instantanée.", "checks": ["Fiches produit avec attributs techniques", "Recherche par dimension et caractéristique", "Gestion des équivalences fournisseurs"], "link": "/prometheus/negoce/", "link_text": "Découvrir l'ERP négoce"},
+            {"icon": "box", "color": "emerald", "title": "Gestion des conditionnements", "desc": "Vente à l'unité, au lot, au mètre linéaire, à la palette ou au camion complet. Conversions automatiques entre unités de vente et unités de stock.", "link": "/prometheus/negoce/"},
+            {"icon": "truck", "color": "amber", "title": "Logistique chantier", "desc": "Planifiez les livraisons sur chantier avec contraintes d'accès, grue de déchargement et créneau horaire. Suivi des bons de livraison signés sur tablette.", "link": "/prometheus/negoce/"},
+            {"icon": "dollar", "color": "indigo", "title": "Tarification marchés publics", "desc": "Gérez les appels d'offres publics, les bordereaux de prix unitaires et les révisions tarifaires contractuelles pour les marchés de travaux.", "link": "/prometheus/negoce/"},
+            {"icon": "warehouse", "color": "purple", "title": "Multi-entrepôts régionaux", "desc": "Pilotez vos agences et dépôts régionaux avec vision consolidée. Transferts inter-sites, réassort automatique et picking optimisé par emplacement."}
+        ]
+    },
+    "faq": {
+        "overline": "FAQ Négoce Matériaux",
+        "heading": "Questions sur l'ERP négoce matériaux de construction",
+        "sub": "Catalogue, logistique chantier, marchés publics et multi-agences.",
+        "items": [
+            {"icon": "database", "q": "Comment gérer un catalogue de plusieurs dizaines de milliers de références ?", "meta": "Attributs techniques, recherche, familles", "html": "<h3>Un catalogue structuré et performant</h3><p>L'ERP structure votre catalogue par <strong>familles, sous-familles et attributs techniques</strong> (dimensions, poids, matière, norme). La recherche multicritère permet de retrouver un produit en quelques secondes parmi 50 000+ références.</p><p>Les <strong>équivalences fournisseurs</strong> sont gérées nativement : un même produit peut avoir plusieurs références selon le fournisseur, avec correspondance automatique.</p>"},
+            {"icon": "truck", "q": "L'ERP gère-t-il les livraisons sur chantier ?", "meta": "Contraintes, accès, grue, créneaux", "html": "<h3>Logistique chantier intégrée</h3><p>Oui. Pour chaque livraison chantier, vous renseignez les <strong>contraintes d'accès</strong> (tonnage, hauteur, grue nécessaire), le <strong>créneau horaire</strong> et le <strong>contact sur site</strong>. Le chauffeur reçoit toutes les informations sur son terminal embarqué.</p><p>Le bon de livraison est signé sur tablette directement sur le chantier, avec horodatage et géolocalisation.</p>"},
+            {"icon": "dollar", "q": "Comment gérer les tarifs pour les marchés publics ?", "meta": "Appels d'offres, BPU, révision de prix", "html": "<h3>Marchés publics et BPU</h3><p>L'ERP gère les <strong>bordereaux de prix unitaires (BPU)</strong> par marché. Pour chaque appel d'offres, vous créez une grille tarifaire dédiée avec :</p><ul><li><strong>Prix unitaires contractuels</strong> par référence</li><li><strong>Formules de révision</strong> indexées (BT, TP, index INSEE)</li><li><strong>Plafonds et seuils</strong> de déclenchement des avenants</li></ul><p>Les factures sont générées conformément aux exigences des marchés publics (Chorus Pro compatible).</p>"},
+            {"icon": "warehouse", "q": "Comment piloter un réseau de plusieurs agences ?", "meta": "Multi-sites, consolidation, transferts", "html": "<h3>Gestion multi-agences centralisée</h3><p>L'ERP offre une <strong>vision consolidée de tous vos dépôts</strong> tout en permettant une gestion autonome par agence. Chaque site gère ses stocks, ses commandes et ses livraisons, avec consolidation en temps réel au siège.</p><p>Les <strong>transferts inter-sites</strong> sont tracés et optimisés : quand une agence manque d'un produit, le système identifie le dépôt le plus proche disposant du stock.</p>"}
+        ]
+    }
+}
+
+# ── NÉGOCE BOISSONS ──
+P_NEGOCE_BOISSONS = {
+    "id": 6250, "slug": "boissons", "name": "ERP Négoce Boissons",
+    "hero": {
+        "badge": "ERP Négoce Boissons",
+        "title_w": "Consignes, accises et DRM",
+        "title_a": "enfin maîtrisés",
+        "desc": "Grossistes en vins, spiritueux, bières et soft drinks : gérez les consignes, les droits d'accise, la DRM et vos tournées CHR depuis un ERP pensé pour la distribution de boissons.",
+        "bg": "https://www.helloharel.com/prometheus/wp-content/uploads/2023/08/bg-line-v7.png"
+    },
+    "bento": {
+        "overline": "ERP Négoce Boissons",
+        "heading": "L'ERP conçu pour le négoce de boissons",
+        "sub": "Vins, spiritueux, bières, soft drinks, consignes et accises",
+        "cards": [
+            {"icon": "arrows", "color": "blue", "bg_icon": "bottle", "title": "Gestion des consignes", "desc": "Suivez les emballages consignés (fûts, casiers, palettes) par client. Facturation et avoir automatiques, suivi du parc consigné en temps réel.", "checks": ["Suivi du parc consigné par client", "Facturation et avoir automatiques", "Alerte consignes non retournées"], "link": "/prometheus/negoce/", "link_text": "Découvrir l'ERP négoce"},
+            {"icon": "doc", "color": "emerald", "title": "Accises & DRM", "desc": "Calcul automatique des droits d'accise par catégorie fiscale. Génération de la DRM (Déclaration Récapitulative Mensuelle) et des DAE/DSA en quelques clics.", "link": "/prometheus/negoce/"},
+            {"icon": "search", "color": "amber", "title": "Traçabilité lots & DLC", "desc": "Chaque lot est tracé de la réception à la livraison. Gestion FEFO des dates de consommation, alertes automatiques sur les produits proches de la DLC.", "link": "/prometheus/negoce/"},
+            {"icon": "truck", "color": "indigo", "title": "Tournées de livraison CHR", "desc": "Planifiez vos tournées pour les cafés, hôtels et restaurants. Optimisation des itinéraires, chargement par ordre de livraison et preuve de remise.", "link": "/prometheus/negoce/"},
+            {"icon": "list", "color": "purple", "title": "Catalogue multi-conditionnement", "desc": "Un même produit vendu à la bouteille, au pack, au carton ou à la palette. Conversions automatiques, codes-barres multiples et prix par conditionnement."}
+        ]
+    },
+    "faq": {
+        "overline": "FAQ Négoce Boissons",
+        "heading": "Questions sur l'ERP négoce boissons",
+        "sub": "Consignes, accises, tournées CHR et traçabilité.",
+        "items": [
+            {"icon": "arrows", "q": "Comment l'ERP gère-t-il les consignes de boissons ?", "meta": "Fûts, casiers, palettes, suivi du parc", "html": "<h3>Gestion complète du circuit consigné</h3><p>L'ERP suit chaque <strong>emballage consigné</strong> (fûts, casiers, palettes) par client. À chaque livraison, les consignes déposées et reprises sont enregistrées automatiquement.</p><ul><li><strong>Parc consigné par client</strong> — Nombre de fûts, casiers et palettes en circulation</li><li><strong>Facturation automatique</strong> — Avoir à la reprise, facturation si non-retour après délai</li><li><strong>Alertes</strong> — Notification quand un client dépasse son quota de consignes non retournées</li></ul>"},
+            {"icon": "doc", "q": "L'ERP calcule-t-il les droits d'accise automatiquement ?", "meta": "DRM, DAE, DSA, catégories fiscales", "html": "<h3>Accises et DRM automatisées</h3><p>Oui. L'ERP associe à chaque produit sa <strong>catégorie fiscale</strong> (vin tranquille, vin effervescent, bière, spiritueux, produit intermédiaire). Les droits d'accise sont calculés automatiquement à chaque mouvement de stock.</p><p>La <strong>DRM (Déclaration Récapitulative Mensuelle)</strong> est générée en un clic à partir des mouvements du mois. Les <strong>DAE (Documents d'Accompagnement Électroniques)</strong> sont émis via EMCS/GAMMA.</p>"},
+            {"icon": "truck", "q": "Comment optimiser les tournées de livraison CHR ?", "meta": "Cafés, hôtels, restaurants, itinéraires", "html": "<h3>Tournées CHR optimisées</h3><p>L'ERP planifie vos <strong>tournées de livraison CHR</strong> en tenant compte des contraintes de chaque établissement : jours de réception, créneaux horaires, accès véhicule.</p><p>Le système propose un <strong>itinéraire optimisé</strong> et un <strong>ordre de chargement inversé</strong> (le dernier client livré est chargé en premier). Le livreur valide chaque livraison sur son terminal avec signature et photo.</p>"},
+            {"icon": "thermo", "q": "L'ERP gère-t-il la chaîne du froid pour les boissons ?", "meta": "Température, bières, transport frigorifique", "html": "<h3>Suivi de la chaîne du froid</h3><p>Pour les produits nécessitant une <strong>température contrôlée</strong> (bières artisanales, certains vins), l'ERP identifie les références à livrer en véhicule frigorifique et alerte si un produit sensible est affecté à un véhicule non réfrigéré.</p><p>Les <strong>relevés de température</strong> peuvent être associés aux bons de livraison pour garantir la traçabilité de la chaîne du froid.</p>"}
+        ]
+    }
+}
+
+# ── NÉGOCE ALIMENTAIRE ──
+P_NEGOCE_ALIMENTAIRE = {
+    "id": 6251, "slug": "alimentaire", "name": "ERP Négoce Alimentaire",
+    "hero": {
+        "badge": "ERP Négoce Alimentaire",
+        "title_w": "Traçabilité, DLC et HACCP",
+        "title_a": "au cœur de votre distribution",
+        "desc": "Grossistes en produits frais, surgelés, épicerie et produits secs : maîtrisez la traçabilité alimentaire, les DLC, la logistique multi-température et la conformité HACCP avec un ERP dédié.",
+        "bg": "https://www.helloharel.com/prometheus/wp-content/uploads/2023/08/bg-line-v7.png"
+    },
+    "bento": {
+        "overline": "ERP Négoce Alimentaire",
+        "heading": "L'ERP conçu pour la distribution alimentaire",
+        "sub": "Produits frais, surgelés, épicerie, traçabilité et HACCP",
+        "cards": [
+            {"icon": "search", "color": "blue", "bg_icon": "leaf", "title": "Traçabilité alimentaire", "desc": "Traçabilité ascendante et descendante de chaque lot, du fournisseur au client final. Conformité au règlement européen 178/2002 et rappels produit instantanés.", "checks": ["Traçabilité lot par lot complète", "Rappel ciblé en quelques secondes", "Conformité règlement CE 178/2002"], "link": "/prometheus/negoce/", "link_text": "Découvrir l'ERP négoce"},
+            {"icon": "clock", "color": "emerald", "title": "DLC/DLUO automatisées", "desc": "Gestion FEFO automatique : les produits les plus proches de la DLC sortent en priorité. Alertes sur les lots à date courte, décote automatique et gestion des dons.", "link": "/prometheus/negoce/"},
+            {"icon": "thermo", "color": "amber", "title": "Multi-température", "desc": "Gérez vos zones de stockage par température (ambiant, frais, surgelé) et planifiez les livraisons en véhicule multi-compartiment avec respect de la chaîne du froid.", "link": "/prometheus/negoce/"},
+            {"icon": "chart", "color": "indigo", "title": "Gestion des marges produit", "desc": "Calculez vos marges en temps réel par produit, par client et par commande. Intégrez les coûts de transport, de stockage et les pertes (casse, DLC dépassée).", "link": "/prometheus/negoce/"},
+            {"icon": "shield", "color": "purple", "title": "Conformité HACCP", "desc": "Enregistrez vos points de contrôle critique, relevés de température et actions correctives. Documentation HACCP générée automatiquement pour les audits sanitaires."}
+        ]
+    },
+    "faq": {
+        "overline": "FAQ Négoce Alimentaire",
+        "heading": "Questions sur l'ERP négoce alimentaire",
+        "sub": "Traçabilité, DLC, logistique multi-température et EDI.",
+        "items": [
+            {"icon": "search", "q": "Quelles sont les obligations de traçabilité en négoce alimentaire ?", "meta": "Règlement CE 178/2002, lots, rappels", "html": "<h3>Traçabilité réglementaire intégrée</h3><p>Le <strong>règlement CE 178/2002</strong> impose à tout distributeur alimentaire une traçabilité « une étape en amont, une étape en aval ». L'ERP automatise cette obligation :</p><ul><li><strong>Réception</strong> — Chaque lot est enregistré avec son fournisseur, sa date de production et sa DLC</li><li><strong>Stockage</strong> — Suivi FEFO avec emplacement et température</li><li><strong>Expédition</strong> — Lien lot-client pour chaque livraison</li></ul><p>En cas de rappel, l'ERP identifie en quelques secondes tous les clients ayant reçu le lot concerné.</p>"},
+            {"icon": "clock", "q": "Comment l'ERP gère-t-il les DLC et la rotation des stocks ?", "meta": "FEFO, alertes, décote, dons", "html": "<h3>Gestion FEFO automatisée</h3><p>L'ERP applique la règle <strong>FEFO (First Expired, First Out)</strong> : les produits les plus proches de la DLC sont proposés en priorité lors de la préparation de commande.</p><p>Des <strong>alertes automatiques</strong> vous préviennent quand un lot atteint un seuil de date configurable (ex. : J-7, J-3). Vous pouvez alors déclencher une <strong>décote automatique</strong>, un <strong>transfert vers un point de vente soldeur</strong> ou un <strong>don à une association</strong>.</p>"},
+            {"icon": "thermo", "q": "L'ERP gère-t-il la logistique multi-température ?", "meta": "Froid positif, surgelé, ambiant, véhicules", "html": "<h3>Logistique multi-température native</h3><p>L'ERP distingue trois zones de température : <strong>ambiant</strong> (>15°C), <strong>froid positif</strong> (0-4°C) et <strong>surgelé</strong> (<-18°C). Chaque produit est associé à sa zone de stockage et de transport.</p><p>Lors de la planification des tournées, le système vérifie que le <strong>véhicule affecté dispose des compartiments nécessaires</strong>. Les relevés de température sont enregistrés et associés aux bons de livraison.</p>"},
+            {"icon": "link", "q": "L'ERP est-il compatible avec l'EDI grande distribution ?", "meta": "GMS, centrales d'achat, DESADV, INVOIC", "html": "<h3>EDI natif pour la grande distribution</h3><p>L'ERP gère les flux EDI normalisés pour les échanges avec les <strong>centrales d'achat et enseignes GMS</strong> :</p><ul><li><strong>ORDERS</strong> — Réception automatique des commandes</li><li><strong>DESADV</strong> — Avis d'expédition avec SSCC palettes</li><li><strong>INVOIC</strong> — Factures dématérialisées conformes</li><li><strong>RECADV</strong> — Accusés de réception et gestion des litiges</li></ul><p>Les flux sont échangés via les principales plateformes EDI (SPS Commerce, Edifact, GS1 France).</p>"}
+        ]
+    }
+}
+
+# ── NÉGOCE INTERNATIONAL ──
+P_NEGOCE_INTERNATIONAL = {
+    "id": 6252, "slug": "international", "name": "ERP Négoce International",
+    "hero": {
+        "badge": "ERP Négoce International",
+        "title_w": "Multi-devises, douanes",
+        "title_a": "et supply chain mondiale",
+        "desc": "Import-export, négoce multi-devises, incoterms et documents douaniers : pilotez vos opérations de commerce international depuis un ERP qui parle toutes les langues du négoce.",
+        "bg": "https://www.helloharel.com/prometheus/wp-content/uploads/2023/08/bg-line-v7.png"
+    },
+    "bento": {
+        "overline": "ERP Négoce International",
+        "heading": "L'ERP conçu pour le négoce international",
+        "sub": "Import-export, multi-devises, incoterms et conformité douanière",
+        "cards": [
+            {"icon": "globe", "color": "blue", "bg_icon": "arrows", "title": "Multi-devises temps réel", "desc": "Gérez vos achats et ventes dans toutes les devises. Taux de change mis à jour automatiquement, écarts de change calculés et comptabilisés en temps réel.", "checks": ["Taux de change automatiques (BCE)", "Écarts de change comptabilisés", "Facturation multi-devises native"], "link": "/prometheus/negoce/", "link_text": "Découvrir l'ERP négoce"},
+            {"icon": "doc", "color": "emerald", "title": "Documents douaniers", "desc": "Générez vos DAU, factures pro forma, certificats d'origine, packing lists et lettres de crédit. Tous les documents nécessaires au dédouanement en quelques clics.", "link": "/prometheus/negoce/"},
+            {"icon": "dollar", "color": "amber", "title": "Incoterms & frais d'approche", "desc": "Associez un incoterm à chaque transaction. Calculez le prix de revient réel en intégrant fret, assurance, droits de douane, taxes et frais de transitaire.", "link": "/prometheus/negoce/"},
+            {"icon": "shield", "color": "indigo", "title": "Conformité réglementaire", "desc": "Vérification des embargos, screening des partenaires commerciaux, gestion des licences d'exportation et conformité aux réglementations sanitaires à l'import.", "link": "/prometheus/negoce/"},
+            {"icon": "truck", "color": "purple", "title": "Supply chain internationale", "desc": "Suivez vos conteneurs du port d'embarquement au dépôt. Gérez les délais de transit, les documents de transport et les contrôles qualité à réception."}
+        ]
+    },
+    "faq": {
+        "overline": "FAQ Négoce International",
+        "heading": "Questions sur l'ERP négoce international",
+        "sub": "Multi-devises, douanes, prix de revient et conformité.",
+        "items": [
+            {"icon": "globe", "q": "Comment l'ERP gère-t-il les opérations multi-devises ?", "meta": "Taux de change, écarts, comptabilité", "html": "<h3>Gestion multi-devises complète</h3><p>L'ERP gère nativement les <strong>achats et ventes en devises étrangères</strong>. Les taux de change sont mis à jour automatiquement depuis la <strong>BCE (Banque Centrale Européenne)</strong>.</p><ul><li><strong>Commande fournisseur</strong> — Saisie en devise du fournisseur, conversion automatique en euros</li><li><strong>Écarts de change</strong> — Calculés et comptabilisés à chaque règlement</li><li><strong>Reporting</strong> — Analyse des marges en devise locale et en euros</li></ul><p>Vous pouvez figer un taux de change sur une commande pour vous protéger des fluctuations.</p>"},
+            {"icon": "doc", "q": "Quels documents douaniers l'ERP génère-t-il ?", "meta": "DAU, certificat d'origine, packing list", "html": "<h3>Documents d'import-export automatisés</h3><p>L'ERP génère l'ensemble des documents nécessaires au <strong>dédouanement</strong> :</p><ul><li><strong>DAU (Document Administratif Unique)</strong> — Pré-rempli avec codes SH, valeurs et origines</li><li><strong>Facture pro forma</strong> — Pour l'ouverture des lettres de crédit</li><li><strong>Certificat d'origine</strong> — EUR.1, ATR, Form A selon la destination</li><li><strong>Packing list</strong> — Détail des colis, poids et dimensions</li></ul>"},
+            {"icon": "dollar", "q": "Comment calculer le prix de revient réel à l'import ?", "meta": "Landed cost, fret, douane, approche", "html": "<h3>Calcul du prix de revient complet (landed cost)</h3><p>L'ERP intègre tous les <strong>frais d'approche</strong> pour calculer le coût de revient réel de chaque produit importé :</p><ul><li><strong>Prix d'achat FOB</strong> en devise d'origine</li><li><strong>Fret maritime ou aérien</strong> — Réparti au poids ou au volume</li><li><strong>Assurance transport</strong></li><li><strong>Droits de douane</strong> — Calculés selon le code SH et l'origine</li><li><strong>Frais de transitaire</strong>, manutention portuaire, transport local</li></ul><p>Le prix de revient est mis à jour en temps réel à chaque imputation de frais, vous permettant de connaître votre <strong>marge réelle</strong> avant même la réception.</p>"},
+            {"icon": "shield", "q": "L'ERP vérifie-t-il la conformité des opérations internationales ?", "meta": "Embargos, licences, screening", "html": "<h3>Contrôles de conformité automatisés</h3><p>L'ERP intègre des <strong>contrôles de conformité</strong> à chaque opération internationale :</p><ul><li><strong>Screening des partenaires</strong> — Vérification contre les listes de sanctions (UE, OFAC, ONU)</li><li><strong>Contrôle des destinations</strong> — Alertes sur les pays sous embargo</li><li><strong>Licences d'exportation</strong> — Suivi des biens à double usage et des autorisations nécessaires</li></ul><p>Toutes les vérifications sont tracées et archivées pour les audits douaniers.</p>"}
+        ]
+    }
+}
+
+# ── NÉGOCE INDUSTRIEL ──
+P_NEGOCE_INDUSTRIEL = {
+    "id": 6253, "slug": "industriel", "name": "ERP Négoce Industriel",
+    "hero": {
+        "badge": "ERP Négoce Industriel",
+        "title_w": "Références techniques,",
+        "title_a": "distribution B2B maîtrisée",
+        "desc": "Grossistes en fournitures industrielles, quincaillerie, EPI, outillage ou pièces détachées : gérez votre catalogue technique massif, vos tarifs contractuels et votre logistique B2B avec un ERP spécialisé.",
+        "bg": "https://www.helloharel.com/prometheus/wp-content/uploads/2023/08/bg-line-v7.png"
+    },
+    "bento": {
+        "overline": "ERP Négoce Industriel",
+        "heading": "L'ERP conçu pour la distribution industrielle",
+        "sub": "Fournitures industrielles, EPI, outillage, pièces détachées",
+        "cards": [
+            {"icon": "database", "color": "blue", "bg_icon": "gear", "title": "Catalogue technique massif", "desc": "Gérez des centaines de milliers de références avec caractéristiques techniques détaillées : normes, dimensions, matériaux, compatibilités. Recherche paramétrique instantanée.", "checks": ["Fiches techniques multi-attributs", "Recherche paramétrique avancée", "Import catalogue fournisseur automatisé"], "link": "/prometheus/negoce/", "link_text": "Découvrir l'ERP négoce"},
+            {"icon": "arrows", "color": "emerald", "title": "Gestion des équivalences", "desc": "Identifiez automatiquement les produits équivalents entre fournisseurs. Proposez des alternatives en cas de rupture et optimisez vos achats par substitution.", "link": "/prometheus/negoce/"},
+            {"icon": "tag", "color": "amber", "title": "Tarification contractuelle", "desc": "Gérez les contrats-cadre avec vos clients industriels : prix négociés par référence, remises par famille, accords annuels et révisions tarifaires automatiques.", "link": "/prometheus/negoce/"},
+            {"icon": "cart", "color": "indigo", "title": "E-commerce B2B", "desc": "Proposez un portail de commande en ligne à vos clients professionnels. Catalogue personnalisé, tarifs contractuels et historique de commandes accessible 24h/24.", "link": "/prometheus/negoce/"},
+            {"icon": "warehouse", "color": "purple", "title": "Multi-entrepôts & picking", "desc": "Optimisez votre préparation de commande avec picking par vague, par zone ou par client. Gestion des emplacements, réassort picking depuis le stock masse."}
+        ]
+    },
+    "faq": {
+        "overline": "FAQ Négoce Industriel",
+        "heading": "Questions sur l'ERP négoce industriel",
+        "sub": "Catalogue technique, équivalences, tarifs contractuels et e-commerce.",
+        "items": [
+            {"icon": "arrows", "q": "Comment l'ERP gère-t-il les équivalences produit ?", "meta": "Substitution, multi-fournisseur, alternatives", "html": "<h3>Gestion des équivalences et substitutions</h3><p>L'ERP permet d'associer à chaque référence ses <strong>produits équivalents</strong> chez d'autres fournisseurs. Lorsqu'un produit est en rupture, le système propose automatiquement les alternatives disponibles en stock.</p><ul><li><strong>Équivalences fournisseurs</strong> — Correspondance automatique entre références</li><li><strong>Substitution en commande</strong> — Proposition d'alternative avec accord client</li><li><strong>Optimisation achats</strong> — Achat de l'équivalent le moins cher disponible</li></ul>"},
+            {"icon": "database", "q": "Comment gérer les caractéristiques techniques de milliers de produits ?", "meta": "Attributs, normes, recherche paramétrique", "html": "<h3>Catalogue technique structuré</h3><p>L'ERP structure votre catalogue avec des <strong>attributs techniques personnalisables</strong> par famille de produit : dimensions, matériaux, normes (ISO, DIN, NF), indices de protection (IP), classes de résistance.</p><p>La <strong>recherche paramétrique</strong> permet à vos commerciaux de trouver le bon produit en filtrant par caractéristiques : « vis inox M8x40 tête hexagonale classe 8.8 » en quelques clics.</p>"},
+            {"icon": "tag", "q": "Comment fonctionnent les tarifs contractuels ?", "meta": "Contrats-cadre, prix négociés, révisions", "html": "<h3>Tarification B2B avancée</h3><p>L'ERP gère des <strong>contrats-cadre</strong> avec vos clients industriels. Chaque contrat peut définir :</p><ul><li><strong>Prix fixes</strong> par référence pour la durée du contrat</li><li><strong>Remises par famille</strong> — Pourcentage ou montant par catégorie de produit</li><li><strong>Paliers de volume</strong> — Prix dégressif selon les quantités commandées</li><li><strong>Révisions annuelles</strong> — Application automatique des indices de révision</li></ul><p>Lors de la saisie d'une commande, le système applique automatiquement les conditions du contrat en cours.</p>"},
+            {"icon": "cart", "q": "L'ERP propose-t-il un portail e-commerce B2B ?", "meta": "Commande en ligne, catalogue, self-service", "html": "<h3>Portail de commande B2B intégré</h3><p>L'ERP propose un <strong>portail e-commerce B2B</strong> connecté en temps réel à votre gestion :</p><ul><li><strong>Catalogue personnalisé</strong> — Chaque client voit ses produits et ses prix contractuels</li><li><strong>Commande en ligne</strong> — Panier, historique, renouvellement de commande en 1 clic</li><li><strong>Stock en temps réel</strong> — Disponibilité affichée avec délai de livraison estimé</li><li><strong>Suivi de commande</strong> — Statut, tracking et factures téléchargeables</li></ul><p>Le portail est accessible 24h/24, permettant à vos clients de commander en dehors de vos heures d'ouverture.</p>"}
+        ]
+    }
+}
+
+# ── ALL NÉGOCE PAGES ──
+PAGES_NEGOCE = [
+    P_NEGOCE,
+    P_NEGOCE_MATERIAUX,
+    P_NEGOCE_BOISSONS,
+    P_NEGOCE_ALIMENTAIRE,
+    P_NEGOCE_INTERNATIONAL,
+    P_NEGOCE_INDUSTRIEL,
+]
+
 # ── ALL PAGES LIST ──
 PAGES = [
     P_FONCTIONNALITES,
@@ -803,3 +1023,38 @@ PAGES_MEDICAL = [
     P_DOMICILE,
     P_HYGIENE,
 ]
+
+# ── NÉGOCE (page pilier) ──
+P_NEGOCE = {
+    "id": 0, "slug": "negoce", "name": "ERP Négoce",
+    "hero": {
+        "badge": "ERP Négoce",
+        "title_w": "ERP Négoce — Gérez votre activité de négoce",
+        "title_a": "avec Harel",
+        "desc": "Pilotez l'ensemble de votre activité de négoce avec un ERP conçu pour les distributeurs, grossistes et négociants. De l'achat à la vente, en passant par la gestion des stocks et la traçabilité.",
+        "bg": "https://www.helloharel.com/prometheus/wp-content/uploads/2023/08/bg-line-v7.png"
+    },
+    "bento": {
+        "overline": "Modules Négoce",
+        "heading": "Toutes les fonctionnalités pour le négoce",
+        "sub": "Un ERP complet qui couvre l'intégralité de votre chaîne de valeur",
+        "cards": [
+            {"icon": "cart", "color": "blue", "bg_icon": "cart", "title": "Gestion des achats et approvisionnements", "desc": "Centralisez vos commandes fournisseurs, négociez vos conditions d'achat et automatisez vos réapprovisionnements. Anticipez vos besoins grâce à l'analyse de la demande.", "checks": ["Commandes fournisseurs automatisées", "Négociation tarifaire centralisée", "Historique complet des achats"], "link": "/prometheus/fonctionnalites/achat/", "link_text": "Découvrir les achats"},
+            {"icon": "dollar", "color": "emerald", "title": "Gestion des ventes / devis / commandes", "desc": "Créez vos devis en quelques clics, transformez-les en commandes puis en factures. Suivez chaque étape du cycle de vente.", "link": "/prometheus/fonctionnalites/vente/"},
+            {"icon": "box", "color": "amber", "title": "Gestion des stocks multi-dépôts", "desc": "Suivez vos stocks en temps réel sur plusieurs entrepôts. Transférez, inventoriez et optimisez vos niveaux de stock.", "link": "/prometheus/fonctionnalites/gestion-de-stock/"},
+            {"icon": "shield", "color": "indigo", "title": "Traçabilité des lots", "desc": "Traçabilité ascendante et descendante complète. Identifiez chaque lot, de la réception fournisseur à la livraison client."},
+            {"icon": "tag", "color": "purple", "title": "Gestion tarifaire, Reporting, Comptabilité & EDI", "desc": "Grilles de prix multiples, remises par volume, tableaux de bord temps réel, export comptable natif et connecteurs EDI/marketplaces.", "sub_links": [{"text": "Gestion tarifaire", "href": "/prometheus/fonctionnalites/vente/"}, {"text": "Reporting", "href": "/prometheus/fonctionnalites/crm/"}, {"text": "Comptabilité", "href": "/prometheus/fonctionnalites/facturation/"}, {"text": "EDI", "href": "/prometheus/fonctionnalites/import-export/"}]},
+        ]
+    },
+    "faq": {
+        "overline": "FAQ Négoce",
+        "heading": "Questions fréquentes sur l'ERP Négoce",
+        "sub": "Tout ce que vous devez savoir pour digitaliser votre activité de négoce.",
+        "items": [
+            {"icon": "shield", "q": "Qu'est-ce qu'un ERP Négoce et pourquoi en ai-je besoin ?", "meta": "Centralisation, automatisation, visibilité", "html": "<h3>Un ERP conçu pour les négociants</h3><p>Un ERP Négoce centralise toutes les opérations d'une entreprise de distribution : achats fournisseurs, gestion des stocks, ventes clients, facturation et logistique.</p><p>Sans ERP, ces données sont éparpillées entre tableurs, logiciels isolés et documents papier. Le risque : erreurs de saisie, ruptures de stock, marges invisibles. Un ERP Négoce unifie tout en un seul système.</p>"},
+            {"icon": "box", "q": "L'ERP gère-t-il les stocks multi-dépôts et multi-sites ?", "meta": "Plusieurs entrepôts, transferts, consolidation", "html": "<h3>Multi-dépôts natif</h3><p>Oui, Hello Harel gère nativement plusieurs entrepôts avec :</p><ul><li><strong>Vision consolidée</strong> — Stock total et par dépôt en temps réel</li><li><strong>Transferts inter-dépôts</strong> — Avec traçabilité complète</li><li><strong>Inventaires par emplacement</strong> — Inventaires tournants ou complets</li></ul>"},
+            {"icon": "tag", "q": "Comment fonctionne la gestion tarifaire ?", "meta": "Grilles de prix, remises, conditions commerciales", "html": "<h3>Tarification flexible et puissante</h3><p>Hello Harel supporte des grilles tarifaires complexes :</p><ul><li><strong>Prix par client ou groupe</strong></li><li><strong>Remises par volume, palier ou fidélité</strong></li><li><strong>Promotions temporaires</strong></li><li><strong>Marges calculées en temps réel</strong> sur chaque ligne de devis</li></ul>"},
+            {"icon": "clock", "q": "Combien de temps pour déployer l'ERP Négoce ?", "meta": "Déploiement rapide, import données", "html": "<h3>Opérationnel en 3 à 5 jours</h3><p>Hello Harel est un ERP SaaS. Pas de serveur à installer, pas d'intégrateur externe :</p><ul><li><strong>Jour 1</strong> — Import de vos données (clients, fournisseurs, produits, tarifs)</li><li><strong>Jour 2-3</strong> — Paramétrage entrepôts, conditions commerciales, workflows</li><li><strong>Jour 4-5</strong> — Formation équipe (2h visio) et premières commandes réelles</li></ul>"},
+        ]
+    }
+}
